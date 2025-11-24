@@ -3,7 +3,7 @@
 $server = "localhost";
 $user = "root";
 $password = "";
-$database = "class_project";
+$database = "student_portal";
 
 $conn = mysqli_connect($server , $user , $password , $database );
 
