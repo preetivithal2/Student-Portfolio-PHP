@@ -28,4 +28,3 @@ else{
 
 ?>
 
-<!-- INSERT INTO `user` (`id`, `name`, `email`, `address`, `password`, `phone`) VALUES ('1', 'Preeti', 'preeti@gmail.com', 'garden ', 'preeti', '0312345678'); -->
