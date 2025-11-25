@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Title</title>
+        <title>Header</title>
         <meta charset="utf-8" />
         <meta
             name="viewport"
@@ -40,8 +40,18 @@
      
     </div>
      <form class="d-flex gap-3">
+
+<?php
+     if(isset($_SESSION['email'])) {
+
+       echo' <button class="btn btn-primary" type="submit"><a href="./logout" class="text-light">Logout</a></button>';
+     }
+else{
+  echo '<button class="btn btn-primary"><a href="./logout" class="text-light
         <button class="btn btn-primary"><a href="./register" class="text-light">Register</a></button>
-          <button class="btn btn-primary"><a href="./login" class="text-light">Login</a></button>
+          <button class="btn btn-primary"><a href="./login" class="text-light">Login</a></button>'
+}
+          ?>
       </form>
   </div>
 </nav>

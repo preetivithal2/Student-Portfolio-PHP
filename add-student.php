@@ -3,9 +3,9 @@
   @include('header.php')
 
   ?>
-  
-     <div class="container mt-5 ">
+  <form action="./student_data.php" method="POST">
 
+     <div class="container mt-5 ">
      <h1 class="text-center">Add-Student✨</h1>
         <div>
     <label for="">Name :</label>
@@ -29,8 +29,8 @@
         <button class="btn btn-primary">
         Add-Student
         </button>
-
      </div>
+</form>
 
 
 
