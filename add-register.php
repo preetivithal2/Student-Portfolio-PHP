@@ -1,6 +1,8 @@
 <?php
 @include('db.php');
 
+$imageName = $_FILES["image"]["name"];
+
 if(isset($_POST['register'])){
 
 $name =$_POST['name'];
