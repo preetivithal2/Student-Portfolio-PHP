@@ -8,7 +8,7 @@ $row = [];
 if(isset($_GET['id']))
 {
   $id = $_GET['id']
-  $query = "SELECT * FROM `students` WHERE id =$id";
+  $query = "SELECT * FROM `students` WHERE id = '$id'";
   $res = mysqli_query{$conn , $query};
 
 

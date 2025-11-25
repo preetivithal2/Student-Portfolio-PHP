@@ -11,7 +11,6 @@
       <th scope="col">Email</th>
       <th scope="col">Batch</th>
       <th scope="col">Faculty</th>
-        <th scope="col">Action</th>
     </tr>
   </thead>
   <tbody>

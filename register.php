@@ -21,6 +21,10 @@
      <input type="text" name="address" placeholder="Enter your Address" class="form-control">
         </div>
 
+        <label for="">Image:</label>
+     <input type="file" name="image" placeholder="upload your image" class="form-control">
+        </div>
+
               <div>
     <label for="">Password :</label>
      <input type="text" name="password" placeholder="Enter your password" class="form-control">
