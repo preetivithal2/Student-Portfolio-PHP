@@ -26,7 +26,7 @@
      <input type="text" name="faculty" placeholder="Enter your password" class="form-control">
         </div>
 
-        <button class="btn btn-primary">
+        <button class="btn btn-primary" name="student">
         Add-Student
         </button>
      </div>

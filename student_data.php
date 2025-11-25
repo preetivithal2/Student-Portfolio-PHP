@@ -13,11 +13,11 @@ $query ="INSERT INTO `students`(`name`,`email`,`batch`,`faculty`) VALUES
  (`$name`,`$email`,`$batch`,`$faculty`);";
 
 
-$res =msqli_query($conn, $query);
+$res =mysqli_query($conn, $query);
 
 if($res)
 {
-    header("location:./index.php");
+    echo "successfully inserted";
 }
 else{
     echo "not register";
